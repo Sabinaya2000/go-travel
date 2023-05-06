@@ -1,0 +1,334 @@
+.navbar-expand-lg .navbar-nav .nav-link  {
+    font-size: 20px;
+    &:hover{
+        color: green;
+    }
+}    
+// .navbar{
+//     position: sticky;
+//     top: 0px;
+//     left: 0px;
+// }
+.dropdown-item{
+    background: #fff;
+    &:hover{
+        background: green;
+        color: #fff;
+    }
+
+}  
+.bottom{
+    background: #198754;
+    color: #fff;
+}
+.icons{
+justify-content: end;
+display: flex;
+gap: 13px;}
+
+.phone{
+    display: flex;
+ 
+}
+.call{
+     
+  
+        color: #fff; 
+        list-style: none;
+    text-decoration: none; 
+}
+.company{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    ul{
+        list-style: none;
+    text-decoration: none;
+    li{
+        text-decoration: none;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    }
+}
+.footer{
+    background: #198754;
+    margin-top: 210px;
+    height: 400px;
+    padding: 50px;
+}
+.more{
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+}
+.apple{
+    bottom: -10px;
+position: relative;
+left: 25px;
+}
+.radius{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: green;
+    cursor: pointer;
+    
+    
+}
+.one{
+    cursor: pointer;
+    &:hover{
+        background: #d3d4d5;
+        border-radius: 12px;
+    }
+   
+}
+.line{
+    color: #fff;
+}
+.girlinaswing{
+    color:#fff;
+    top: 200px;
+    text-align: left;
+}
+.btn1 {
+    border-radius: 50px;
+    height: 40px;
+    width: 130px;
+    background: #198754;
+    color: #fff;
+    &:hover{
+        background: #fff;
+        color: #198754;
+    }
+}
+.des{
+   color:  #198754;;
+}
+.lights{
+    background: #e9ecef;
+    &:hover{
+        color: #6c757d;
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+        &:hover{
+            color: #198754;
+        }
+    }
+}
+// .louvre{
+//     height: 50px;
+//     width: 1000px;
+// }
+.norway{
+    height: 313px;
+}
+.norway2{
+    height: 310px; 
+}
+.norway1{
+    height: 312px;
+}
+.norway3{
+    height: 312px;
+}
+.jungle{
+    position: relative;
+    bottom: 20px;
+    color: #fff;
+}
+.areyouready{
+    position: relative;
+    top: -450px;
+    color: #fff;
+}
+.packages{
+    display: flex;
+    gap: 60px;
+    margin-left: 450px;
+}
+.view{
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    &:hover{
+        background: #fff;
+        color: #198754;
+    }
+}
+.listofhotels{
+  width: 30px;
+    height: 50px;
+    border-radius: 5%;
+    
+}
+.forhotels{
+    margin-left: 460px;
+    background: #198754;
+    color: #fff;
+    border-radius: 50px;
+    &:hover{
+        background: #198754;
+        color: #fff;
+    }
+}
+.recommended{
+    margin-top: -250px;
+}
+.londonbridge{
+   margin-left: 60px;
+   width: 300px;
+}
+.themontcalm{
+    border: 1px solid gray;
+    height: 200px;
+    
+   
+    
+}
+.text{
+    margin-left: 20px;
+    margin-top: -0px;
+}
+
+.activecustomer{
+   height: 300px;
+    color: #fff;
+   
+}
+.activecustomers{
+text-align: center;
+margin-top: 40px;
+}
+.aboutcustomers{
+    display: flex;
+    justify-content: space-between;
+    background: #198754;
+    height: 150px;
+    text-align: center;
+}
+.activecustomers1{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    }
+    .activecustomers4{
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 70px;
+        }
+.line{
+    border-bottom: 1px solid #fff;
+width: 1000px;
+margin-left: 50px;
+
+position: relative;
+top: 30px;
+
+} 
+.retro{
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+}   
+
+.earthismoving{
+    position: relative;
+top: 250px;
+transform: translate(-50%, -50%);
+left: 250px;
+animation: myfirst 15s infinite linear;
+
+}
+@keyframes myfirst{
+    0%{
+        transform: translate(-50% ,-50%) rotate(0deg);
+    }
+
+    100%{
+        transform: translate(-50% ,-50%) rotate(360deg);
+    }
+}
+.placeholder{
+    display: flex;
+}
+.form1{
+    height: 50px;
+    width: 400px;
+}
+.bookhotel{
+    padding: 5px;
+    &:hover{
+        background: #fff;
+        color: #198754;
+    }
+}
+.youremailaddress{
+    height: 50px;
+    width: 300px;
+   
+}
+.submit{
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+    margin-left: 30px;
+    &:hover{
+        background: #fff;
+        color: #198754;
+    }
+ 
+}
+.traveljourney{
+    text-align: center;
+    position: relative;
+    bottom: -140px;
+}
+.applelogo{
+    position: relative;
+    top: 35px;
+    left: 15px;
+    
+}
+.downloadwalahohai{
+    background: #198754;
+    border-radius: 5px;
+    color: #fff;
+    width: 190px;
+    height: 100px;
+    cursor: pointer;
+    margin: 20px;
+    &:hover{
+        background: darkgreen;
+    }
+}
+.downloandonapp{
+    position: relative;
+    bottom: -12px;
+    left: -13px;
+}
+.aheadofbanner{
+    margin-top: 10px;
+}
+.about{
+    margin-top: 100px;
+}
+.tourpage{
+    margin-top: 100px;
+}
+.catecorypage{
+    margin-top: 100px;
+}
+.scrolltotop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
